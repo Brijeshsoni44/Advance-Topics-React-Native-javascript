@@ -14,9 +14,6 @@
 // 🔹 Step 1: Prepare the React Native Project
 // Update Dependencies
 // Run the following commands to install/update project dependencies:
-// sh
-// Copy
-// Edit
 // npm install       # or yarn install
 // cd android && ./gradlew clean && cd ..
 // Configure AndroidManifest.xml
@@ -25,26 +22,16 @@
 // 🔹 Step 2: Configure Signing & Keystore
 // Generate a Keystore File (for signing the app)
 // Open a terminal and run:
-
-// sh
-// Copy
-// Edit
 // keytool -genkeypair -v -keystore my-release-key.keystore -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
 // This will generate a keystore file (my-release-key.keystore).
-
 // Move the Keystore File
 // Move my-release-key.keystore to:
-
-// bash
-// Copy
-// Edit
 // android/app/
 // Configure gradle.properties
 // Add the following lines to android/gradle.properties:
 
 // properties
-// Copy
-// Edit
+
 // MYAPP_RELEASE_STORE_FILE=my-release-key.keystore
 // MYAPP_RELEASE_KEY_ALIAS=my-key-alias
 // MYAPP_RELEASE_STORE_PASSWORD=your-keystore-password
@@ -53,8 +40,7 @@
 // Inside signingConfigs, add:
 
 // gradle
-// Copy
-// Edit
+
 // signingConfigs {
 //     release {
 //         storeFile file(MYAPP_RELEASE_STORE_FILE)
@@ -72,23 +58,15 @@
 // 🔹 Step 3: Build the Release APK/AAB
 // Generate a Release Build
 
-// sh
-// Copy
-// Edit
 // cd android
 // ./gradlew assembleRelease    # To generate an APK
 // ./gradlew bundleRelease      # To generate an AAB (recommended for Play Store)
 // Find the APK/AAB File
 
 // APK will be generated in:
-// swift
-// Copy
-// Edit
+
 // android/app/build/outputs/apk/release/app-release.apk
 // AAB will be in:
-// swift
-// Copy
-// Edit
 // android/app/build/outputs/bundle/release/app-release.aab
 // 🔹 Step 4: Upload to Google Play Store
 // Go to Google Play Console (https://play.google.com/console)
@@ -153,3 +131,6 @@
 // By following these deployment steps and preparing for common interview questions, you will be well-equipped to deploy and troubleshoot Android apps in React Native. 🚀
 
 // Would you like code snippets or help with a specific issue? 🔥
+
+
+

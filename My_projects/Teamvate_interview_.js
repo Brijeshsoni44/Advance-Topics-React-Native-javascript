@@ -665,3 +665,70 @@
 // 🔹 React DevTools Integration → Allows inspecting the React component tree.
 // 🔹 Logs & Crash Reports → View console logs and app crash reports in real time.
 // 🔹 Extensible Plugins → Supports additional plugins for enhanced debugging.
+
+
+// 🔵 React Native + TypeScript + Redux
+// Q1.
+// How did you structure the Redux store and slices when managing complex team workflows in Teamvate?
+
+// Q2.
+// What challenges did you face while migrating or developing using TypeScript in React Native?
+
+// Q3.
+// How did you implement Hooks (useEffect, useCallback, useMemo) effectively in the Teamvate application to manage performance?
+
+// Q4.
+// How do you design scalable and maintainable Redux architecture in a large app like Teamvate?
+
+// 🔵 React Native for Web (Responsive Web Layout)
+// Q5.
+// How did you convert the mobile-native UI into a responsive web layout using React Native for Web?
+
+// Q6.
+// Which third-party libraries did you use to help with responsiveness or cross-device compatibility?
+
+// Q7.
+// What issues did you face when running a React Native app inside browsers, and how did you fix them?
+
+// 🔵 Performance Optimization
+// Q8.
+// How did you achieve 20% app performance optimization and reduce crash reports in Teamvate?
+
+// Q9.
+// Which tools did you use to monitor performance issues (for mobile and web) and how did you fix memory leaks or rendering issues?
+
+// Q10.
+// How do you optimize bundle size when shipping React Native Web apps?
+
+// 🔵 Real-Time Chat (Pusher.js, WebSocket)
+// Q11.
+// How did you implement real-time messaging using Pusher.js and WebSocket in Teamvate?
+
+// Q12.
+// How did you manage connection loss, reconnection strategies, and message consistency in real-time chat?
+
+// Q13.
+// Why did you choose Pusher.js over other real-time technologies like Firebase Realtime Database or socket.io?
+
+// 🔵 Unit Testing with Jest
+// Q14.
+// How did you achieve 95% test coverage? What was your testing strategy?
+
+// Q15.
+// How do you write unit tests for Redux slices, React Hooks, and real-time chat functionalities?
+
+// Q16.
+// Can you show an example of how you mock WebSocket or Pusher events while testing?
+
+// 🔵 Bonus (if they dig deeper)
+// Q17.
+// How did you manage API communication and error handling for real-time events and team workflows?
+
+// Q18.
+// How did you handle authentication and authorization for different team users inside real-time chat features?
+
+// Q19.
+// Explain a major technical challenge you faced while working on Teamvate and how you solved it.
+
+// Q20.
+// If you had to improve Teamvate's performance even further, what would be your next optimization step?

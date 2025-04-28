@@ -13,9 +13,6 @@
 // 🔹 Step 1: Prepare Your React Native App
 // Update Dependencies  
 // Run the following commands to install/update project dependencies:
-// sh
-// Copy
-// Edit
 // npm install       # or yarn install
 // cd ios && pod install && cd ..
 // Ensure Proper iOS Configurations
@@ -24,11 +21,7 @@
 // Make sure Info.plist contains required permissions (e.g., location, camera).
 // 🔹 Step 2: Configure Signing & Certificates
 // Open Xcode & Configure Team
-
 // Open your iOS project in Xcode:
-// sh
-// Copy
-// Edit
 // open ios/MyApp.xcworkspace
 // Go to Signing & Capabilities → Select your Apple Developer Team.
 // Ensure "Automatically manage signing" is enabled.
@@ -38,29 +31,21 @@
 // Go to Certificates, Identifiers & Profiles.
 // Create a new iOS Distribution Certificate.
 // Create an App ID & Provisioning Profile
-
 // Register your Bundle Identifier (e.g., com.company.myapp).
 // Create a new Provisioning Profile for distribution.
 // Download and add it to Xcode.
 // 🔹 Step 3: Build and Test the App
 // Run on Simulator (Development Mode)
-
-// sh
-// Copy
-// Edit
 // npx react-native run-ios
 // Run on Physical Device (Requires Apple Developer Account)
-
 // Connect your iPhone via USB.
 // Select the device in Xcode and run the project.
 // Archive the App for App Store Deployment
-
 // In Xcode, select Any iOS Device (arm64).
 // Go to Product > Archive.
 // Once the build is ready, it will appear in the Organizer window.
 // 🔹 Step 4: Upload the Build to App Store
 // Export & Upload via Xcode
-
 // In Xcode’s Organizer, click Distribute App.
 // Select App Store Connect > Upload.
 // Xcode will verify and upload the app to App Store Connect.
